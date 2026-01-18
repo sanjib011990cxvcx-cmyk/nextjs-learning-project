@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import { blogs } from "../data/blogs";
+import { blogs } from "../../lib/data/blogs";
 
 
 export default function BlogList({ posts }) {

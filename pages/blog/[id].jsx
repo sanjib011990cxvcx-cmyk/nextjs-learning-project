@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { blogs } from "../data/blogs";
+import { blogs } from "../../lib/data/blogs";
 
 
 export default function BlogDetails({ post }) {
